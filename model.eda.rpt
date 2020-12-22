@@ -1,0 +1,290 @@
+EDA Netlist Writer report for model
+Tue Dec 08 16:20:35 2020
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Timing Analysis Settings
+  6. Timing Analysis Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                             ;
++--------------------------------+---------------------------------------+
+; EDA Netlist Writer Status      ; Successful - Tue Dec 08 16:20:35 2020 ;
+; Revision Name                  ; model                                 ;
+; Top-level Entity Name          ; model                                 ;
+; Family                         ; Cyclone III                           ;
+; Simulation Files Creation      ; Successful                            ;
+; Timing Analysis Files Creation ; Successful                            ;
++--------------------------------+---------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                      ;
++---------------------------------------------------------------------------------------------------+----------------------+
+; Option                                                                                            ; Setting              ;
++---------------------------------------------------------------------------------------------------+----------------------+
+; Tool Name                                                                                         ; Active-HDL (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                  ;
+; Time scale                                                                                        ; 1 ps                 ;
+; Truncate long hierarchy paths                                                                     ; Off                  ;
+; Map illegal HDL characters                                                                        ; Off                  ;
+; Flatten buses into individual nodes                                                               ; Off                  ;
+; Maintain hierarchy                                                                                ; Off                  ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                  ;
+; Enable glitch filtering                                                                           ; Off                  ;
+; Do not write top level VHDL entity                                                                ; Off                  ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                  ;
+; Architecture name in VHDL output netlist                                                          ; structure            ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                  ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                  ;
++---------------------------------------------------------------------------------------------------+----------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                        ;
++---------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                   ;
++---------------------------------------------------------------------------------------------------+
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_6_1200mv_85c_slow.vo     ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_6_1200mv_0c_slow.vo      ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_min_1200mv_0c_fast.vo    ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model.vo                       ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_6_1200mv_85c_v_slow.sdo  ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_6_1200mv_0c_v_slow.sdo   ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_min_1200mv_0c_v_fast.sdo ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/model_v.sdo                    ;
++---------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Timing Analysis Settings                                  ;
++-------------------------------------+---------------------+
+; Option                              ; Setting             ;
++-------------------------------------+---------------------+
+; Tool Name                           ; PrimeTime (Verilog) ;
+; Time scale                          ; 1 ps                ;
+; Truncate long hierarchy paths       ; Off                 ;
+; Map illegal HDL characters          ; Off                 ;
+; Flatten buses into individual nodes ; Off                 ;
++-------------------------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Timing Analysis Generated Files                                                               ;
++-----------------------------------------------------------------------------------------------+
+; Generated Files                                                                               ;
++-----------------------------------------------------------------------------------------------+
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model.vo                       ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model_6_1200mv_85c_v_slow.sdo  ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model_6_1200mv_0c_v_slow.sdo   ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model_min_1200mv_0c_v_fast.sdo ;
+; F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model_v.sdo                    ;
++-----------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Dec 08 16:20:32 2020
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off model -c model
+Info: Generated file model_6_1200mv_85c_slow.vo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_6_1200mv_0c_slow.vo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_min_1200mv_0c_fast.vo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model.vo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_6_1200mv_85c_v_slow.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_6_1200mv_0c_v_slow.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_min_1200mv_0c_v_fast.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Generated file model_v.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/simulation/activehdl/" for EDA simulation tool
+Info: Port "data_1[5][2]" is changed into "data_1_5_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[5][1]" is changed into "data_1_5_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[5][0]" is changed into "data_1_5_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][2]" is changed into "data_1_4_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][1]" is changed into "data_1_4_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][0]" is changed into "data_1_4_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][2]" is changed into "data_1_3_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][1]" is changed into "data_1_3_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][0]" is changed into "data_1_3_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][2]" is changed into "data_1_2_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][1]" is changed into "data_1_2_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][0]" is changed into "data_1_2_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][2]" is changed into "data_1_1_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][1]" is changed into "data_1_1_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][0]" is changed into "data_1_1_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_2[5][2]" is changed into "data_2_5_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[5][1]" is changed into "data_2_5_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[5][0]" is changed into "data_2_5_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][2]" is changed into "data_2_4_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][1]" is changed into "data_2_4_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][0]" is changed into "data_2_4_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][2]" is changed into "data_2_3_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][1]" is changed into "data_2_3_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][0]" is changed into "data_2_3_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][2]" is changed into "data_2_2_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][1]" is changed into "data_2_2_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][0]" is changed into "data_2_2_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][2]" is changed into "data_2_1_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][1]" is changed into "data_2_1_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][0]" is changed into "data_2_1_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_3[5][2]" is changed into "data_3_5_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[5][1]" is changed into "data_3_5_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[5][0]" is changed into "data_3_5_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][2]" is changed into "data_3_4_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][1]" is changed into "data_3_4_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][0]" is changed into "data_3_4_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][2]" is changed into "data_3_3_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][1]" is changed into "data_3_3_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][0]" is changed into "data_3_3_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][2]" is changed into "data_3_2_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][1]" is changed into "data_3_2_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][0]" is changed into "data_3_2_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][2]" is changed into "data_3_1_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][1]" is changed into "data_3_1_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][0]" is changed into "data_3_1_0" because it's a member of 2-D array port "data_3"
+Info: Port "rem_row_value[3][2]" is changed into "rem_row_value_3_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[3][1]" is changed into "rem_row_value_3_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[3][0]" is changed into "rem_row_value_3_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][2]" is changed into "rem_row_value_2_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][1]" is changed into "rem_row_value_2_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][0]" is changed into "rem_row_value_2_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][2]" is changed into "rem_row_value_1_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][1]" is changed into "rem_row_value_1_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][0]" is changed into "rem_row_value_1_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "colm_value_count[3][2]" is changed into "colm_value_count_3_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[3][1]" is changed into "colm_value_count_3_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[3][0]" is changed into "colm_value_count_3_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][2]" is changed into "colm_value_count_2_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][1]" is changed into "colm_value_count_2_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][0]" is changed into "colm_value_count_2_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][2]" is changed into "colm_value_count_1_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][1]" is changed into "colm_value_count_1_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][0]" is changed into "colm_value_count_1_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "prev_colm[2][2]" is changed into "prev_colm_2_2" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[2][1]" is changed into "prev_colm_2_1" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[2][0]" is changed into "prev_colm_2_0" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][2]" is changed into "prev_colm_1_2" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][1]" is changed into "prev_colm_1_1" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][0]" is changed into "prev_colm_1_0" because it's a member of 2-D array port "prev_colm"
+Info: Generated file model.vo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/" for EDA timing analysis tool
+Info: Generated file model_6_1200mv_85c_v_slow.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/" for EDA timing analysis tool
+Info: Generated file model_6_1200mv_0c_v_slow.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/" for EDA timing analysis tool
+Info: Generated file model_min_1200mv_0c_v_fast.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/" for EDA timing analysis tool
+Info: Generated file model_v.sdo in folder "F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/" for EDA timing analysis tool
+Info: ------------------------------------------------------------
+Info: eda_pt_script.tcl version: #1
+Info: eda_pt_generate.tcl version: #1
+Info: eda_pt_conversion.tcl version: #1
+Info: ------------------------------------------------------------
+Info: Port "data_1[5][2]" is changed into "data_1_5_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[5][1]" is changed into "data_1_5_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[5][0]" is changed into "data_1_5_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][2]" is changed into "data_1_4_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][1]" is changed into "data_1_4_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[4][0]" is changed into "data_1_4_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][2]" is changed into "data_1_3_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][1]" is changed into "data_1_3_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[3][0]" is changed into "data_1_3_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][2]" is changed into "data_1_2_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][1]" is changed into "data_1_2_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[2][0]" is changed into "data_1_2_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][2]" is changed into "data_1_1_2" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][1]" is changed into "data_1_1_1" because it's a member of 2-D array port "data_1"
+Info: Port "data_1[1][0]" is changed into "data_1_1_0" because it's a member of 2-D array port "data_1"
+Info: Port "data_2[5][2]" is changed into "data_2_5_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[5][1]" is changed into "data_2_5_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[5][0]" is changed into "data_2_5_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][2]" is changed into "data_2_4_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][1]" is changed into "data_2_4_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[4][0]" is changed into "data_2_4_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][2]" is changed into "data_2_3_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][1]" is changed into "data_2_3_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[3][0]" is changed into "data_2_3_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][2]" is changed into "data_2_2_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][1]" is changed into "data_2_2_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[2][0]" is changed into "data_2_2_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][2]" is changed into "data_2_1_2" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][1]" is changed into "data_2_1_1" because it's a member of 2-D array port "data_2"
+Info: Port "data_2[1][0]" is changed into "data_2_1_0" because it's a member of 2-D array port "data_2"
+Info: Port "data_3[5][2]" is changed into "data_3_5_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[5][1]" is changed into "data_3_5_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[5][0]" is changed into "data_3_5_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][2]" is changed into "data_3_4_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][1]" is changed into "data_3_4_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[4][0]" is changed into "data_3_4_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][2]" is changed into "data_3_3_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][1]" is changed into "data_3_3_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[3][0]" is changed into "data_3_3_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][2]" is changed into "data_3_2_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][1]" is changed into "data_3_2_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[2][0]" is changed into "data_3_2_0" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][2]" is changed into "data_3_1_2" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][1]" is changed into "data_3_1_1" because it's a member of 2-D array port "data_3"
+Info: Port "data_3[1][0]" is changed into "data_3_1_0" because it's a member of 2-D array port "data_3"
+Info: Port "rem_row_value[3][2]" is changed into "rem_row_value_3_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[3][1]" is changed into "rem_row_value_3_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[3][0]" is changed into "rem_row_value_3_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][2]" is changed into "rem_row_value_2_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][1]" is changed into "rem_row_value_2_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[2][0]" is changed into "rem_row_value_2_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][2]" is changed into "rem_row_value_1_2" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][1]" is changed into "rem_row_value_1_1" because it's a member of 2-D array port "rem_row_value"
+Info: Port "rem_row_value[1][0]" is changed into "rem_row_value_1_0" because it's a member of 2-D array port "rem_row_value"
+Info: Port "colm_value_count[3][2]" is changed into "colm_value_count_3_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[3][1]" is changed into "colm_value_count_3_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[3][0]" is changed into "colm_value_count_3_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][2]" is changed into "colm_value_count_2_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][1]" is changed into "colm_value_count_2_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[2][0]" is changed into "colm_value_count_2_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][2]" is changed into "colm_value_count_1_2" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][1]" is changed into "colm_value_count_1_1" because it's a member of 2-D array port "colm_value_count"
+Info: Port "colm_value_count[1][0]" is changed into "colm_value_count_1_0" because it's a member of 2-D array port "colm_value_count"
+Info: Port "prev_colm[2][2]" is changed into "prev_colm_2_2" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[2][1]" is changed into "prev_colm_2_1" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[2][0]" is changed into "prev_colm_2_0" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][2]" is changed into "prev_colm_1_2" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][1]" is changed into "prev_colm_1_1" because it's a member of 2-D array port "prev_colm"
+Info: Port "prev_colm[1][0]" is changed into "prev_colm_1_0" because it's a member of 2-D array port "prev_colm"
+Info: --------------------------------------------------------
+Info: Generated F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model.collections.sdc
+Info: --------------------------------------------------------
+Info: --------------------------------------------------------
+Info: Generated F:/buet accademic/3.2/DLD lab/project/5_s_3_q/timing/primetime/model.pt.tcl
+Info: --------------------------------------------------------
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 182 megabytes
+    Info: Processing ended: Tue Dec 08 16:20:35 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
